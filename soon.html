@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Deck Course - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        /* Color Variables */
+        :root {
+            --light-gray: #EFEFEF;
+            --black: #000000;
+            --white: #FFFFFF;
+            --dark-blue: #14116F;
+            --purple: #9851D9;
+            --light-purple: #B98FED;
+            --soft-blue: #8E8BED;
+            --bright-blue: #4B47E3;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Helvetica', Arial, sans-serif;
+            background: linear-gradient(135deg, var(--black), var(--dark-blue));
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            background-color: rgba(20, 17, 111, 0.5); /* semi-transparent dark-blue */
+            border: 2px solid var(--bright-blue);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4.5rem;
+            margin: 0 0 10px 0;
+            color: var(--light-purple);
+            letter-spacing: 2px;
+        }
+
+        p.subtitle {
+            font-size: 1.3rem;
+            color: var(--light-gray);
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: var(--soft-blue);
+            color: var(--black);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        input[type="email"] {
+            padding: 15px 20px;
+            font-size: 1rem;
+            font-family: 'Helvetica', Arial, sans-serif;
+            border: none;
+            border-radius: 5px;
+            width: 300px;
+            max-width: 100%;
+            outline: none;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-family: 'Bebas Neue', sans-serif;
+            background-color: var(--purple);
+            color: var(--white);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            background-color: var(--light-purple);
+            color: var(--dark-blue);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: var(--soft-blue);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Unlock the Power of Your Stream Deck</h1>
+        <p class="subtitle">A complete curriculum for computer and mobile devices is launching soon. Get ready to elevate your productivity and automate your workflows across creative applications like Photoshop and Final Cut Pro.</p>
+        
+        <div class="features">
+            <span class="badge">Profiles & Folders</span>
+            <span class="badge">Productivity</span>
+            <span class="badge">Creative Apps</span>
+            <span class="badge">Automation</span>
+        </div>
+
+        <div class="form-group">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="button">Notify Me</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2026. Designed for future Stream Deck power users.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
